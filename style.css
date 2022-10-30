@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main header {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  background: hsl(230deg, 17%, 14%);
+  padding: 5% 10%;
+}
+main header .titel {
+  color: hsl(0deg, 0%, 100%);
+}
+main header .mode {
+  color: hsl(0deg, 0%, 100%);
+  display: flex;
+  align-items: center;
+}
+main header .mode .toggle {
+  margin-left: 5px;
+  width: 50px;
+  height: 20px;
+  background-image: linear-gradient(hsl(210deg, 78%, 56%), hsl(146deg, 68%, 55%));
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */
